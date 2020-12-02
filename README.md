@@ -1,2 +1,2 @@
 # INV
- A static splash page for the Incredible Nella Vita project.
+ A static splash page for the INV project.
