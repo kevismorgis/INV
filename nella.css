@@ -62,7 +62,10 @@ nav a {
 }
 
 .btn {
+	text-transform: uppercase;
+	cursor: pointer;
     color: #e0b90d;
+	background: transparent;
     border: 2px solid;
     border-radius: 50px;
     font-weight: 600;
@@ -70,6 +73,7 @@ nav a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+	font-family: 'Gotham';
 }
 
 .btn i {
@@ -118,12 +122,17 @@ nav a {
 #mini-signup {
     min-height: 10vh;
     background: #2E036E;
-    display: flex;
+}
+
+#mini-signup form, #mini-signup  {
+	display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+	width: 100%;
 }
-#mini-signup > * {
+
+#mini-signup form > * {
     margin: 0 20px;
 }
 
@@ -132,7 +141,7 @@ nav a {
     font-size: calc(1em + 0.5vw);
 }
 
-#mini-signup input, .email input {
+#mini-signup input:not(.btn), .email input:not(.btn) {
     flex-basis: 20%;
     padding: 15px 20px;
     border-radius: 50px;
@@ -248,7 +257,7 @@ nav a {
     border: 0;
 }
 
-.email input {
+.email input:not(.btn) {
     width: calc(80px + 25vw);
 }
 
@@ -323,7 +332,7 @@ nav a {
 		font-size: calc(1.5em + 0.5vw);
 	}
 	
-	.email input {
+	.email input:not(.btn) {
 		width: calc(80px + 30vw);
 	}
 }
@@ -363,7 +372,7 @@ nav a {
         height: 50vh;
     }
 
-    #mini-signup {
+    #mini-signup form {
         flex-wrap: wrap;
         padding: 20px 0;
     }
@@ -372,7 +381,7 @@ nav a {
         margin-bottom: 10px;
     }
     
-    #mini-signup > * {
+    #mini-signup form > * {
         margin: 0 10px;
     }
 
