@@ -66,10 +66,8 @@ nav a {
     border: 2px solid;
     border-radius: 50px;
     font-weight: 600;
+    padding: 15px 30px;
     display: inline-flex;
-	flex-direction: row;
-    padding: 0 30px;
-	height: calc(1em + 30px);
     justify-content: center;
     align-items: center;
 }
@@ -104,8 +102,7 @@ nav a {
 
 #trailer .btn {
     font-size: calc(1em + 0.5vw);
-    padding: 0 40px;
-	height: calc(1em + 40px);
+    padding: 20px 40px;
 }
 
 #trailer #nella  {
