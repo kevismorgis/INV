@@ -146,7 +146,6 @@ nav a {
     padding: 15px 20px;
     border-radius: 50px;
     border: 0;
-	flex-grow: 1;
 }
 
 #story {
@@ -260,6 +259,7 @@ nav a {
 
 .email input:not(.btn) {
     width: calc(80px + 25vw);
+	flex-grow: 1;
 }
 
 /* GENERAL GRID */
@@ -416,6 +416,7 @@ nav a {
         padding: 20px 10vw;
         position: relative;
         z-index: 1;
+		align-items: flex-end;
     }
     
     #signup span {
@@ -427,4 +428,20 @@ nav a {
         left: -20vw;
         z-index: -1;
     }
+
+	#signup .email .btn {
+		padding: 20px;
+	}
+
+	#signup .email input:not(.btn) {
+		width: calc(40px + 25vw);
+	}
+
+	#signup form {
+		display: flex;
+	}
+
+	#signup input.required {
+		flex-grow: 1;
+	}
 }
