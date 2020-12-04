@@ -124,7 +124,7 @@ nav a {
     background: #2E036E;
 }
 
-#mini-signup form, #mini-signup  {
+#mini-signup form, #mini-signup, form.email  {
 	display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,6 +146,7 @@ nav a {
     padding: 15px 20px;
     border-radius: 50px;
     border: 0;
+	flex-grow: 1;
 }
 
 #story {
