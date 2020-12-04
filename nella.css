@@ -61,7 +61,7 @@ nav a {
 	font-size: calc(0.7em + 0.5vw);
 }
 
-.btn {
+.btn, input[type="submit"] {
 	text-transform: uppercase;
 	cursor: pointer;
     color: #e0b90d;
@@ -254,7 +254,7 @@ nav a {
     margin: 0 10px;
     background: #e0b90d;
     color: #270671;
-    border: 0;
+    border-color: #e0b90d;
 }
 
 .email input:not(.btn) {
